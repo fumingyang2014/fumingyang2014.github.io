@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tarjan算法之LCA
-categories: AI          # 智能体 / AI / 技术 / 生活 ……
+categories: 算法          # 智能体 / AI / 技术 / 生活 ……
 ---
 # LCA · 离线 Tarjan —— 交互教学演示
 
