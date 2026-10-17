@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="/assets/css/shuimo.css?v={{ asset_v }}">
     <script defer src="/assets/js/shuimo.js?v={{ asset_v }}"></script>
     {% unless page.mathjax == false %}
+    <script>
+      window.MathJax = { tex2jax: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+    </script>
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS_CHTML"></script>
     {% endunless %}
 
